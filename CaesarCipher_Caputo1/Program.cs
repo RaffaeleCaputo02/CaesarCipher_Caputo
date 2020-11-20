@@ -11,7 +11,6 @@ namespace CaesarCipher_Caputo1
         static void Main(string[] args)
         {
 
-
         }
     }
 }
