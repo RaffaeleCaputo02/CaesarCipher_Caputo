@@ -35,13 +35,16 @@ namespace CeaserCipher_Library
             return message;  
         }
 
-        public string Encryption(string message, int key)
+                                                         
+        public class CeaserCode:CaesarBase
         {
-            string encryptedMessage="";
-            foreach
+            public string CipherText { get; set; }
+            public CeaserCode(string message, int key)
+            {
+                Key = key;
+                CipherText = DoWork(message);
+            }
 
-            return encryptedMessage;
         }
-
     }
 }

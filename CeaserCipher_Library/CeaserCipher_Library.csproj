@@ -44,11 +44,5 @@
     <Compile Include="CaesarBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CaesarCipher_Caputo1\CaesarCipher_Caputo1.csproj">
-      <Project>{97b2c7e8-2806-46b5-8df3-0cbe42a79584}</Project>
-      <Name>CaesarCipher_Caputo1</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

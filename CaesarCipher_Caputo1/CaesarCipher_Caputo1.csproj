@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CeaserCipher_Library\CeaserCipher_Library.csproj">
+      <Project>{4dc8e745-63bf-4e48-be6a-fbce050b0d89}</Project>
+      <Name>CeaserCipher_Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
